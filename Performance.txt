@@ -1,0 +1,21 @@
+#Dataset range from 0-500
+
+Precision: 0.5753
+Recall:    0.5711
+F1-score:  0.5732
+Accuracy:  0.9854
+
+
+##Dataset range from 501-1500
+Precision: 0.2733
+Recall:    0.7432
+F1-score:  0.3996
+Accuracy:  0.9618
+
+
+##Dataset range from 1501-4000
+
+Precision: 0.4527
+Recall:    0.6633
+F1-score:  0.5382
+Accuracy:  0.9805
