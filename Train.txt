@@ -1,0 +1,565 @@
+/usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py:624: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+/usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py:624: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+Iter 10/5000 Time: 18.46 Batch_OA = 85.8 cross_entropy_loss = 0.514
+Iter 20/5000 Time: 3.29 Batch_OA = 98.0 cross_entropy_loss = 0.249
+Iter 30/5000 Time: 3.29 Batch_OA = 98.2 cross_entropy_loss = 0.172
+Iter 40/5000 Time: 3.32 Batch_OA = 98.4 cross_entropy_loss = 0.124
+Iter 50/5000 Time: 3.35 Batch_OA = 98.4 cross_entropy_loss = 0.098
+Iter 60/5000 Time: 3.31 Batch_OA = 98.5 cross_entropy_loss = 0.080
+Iter 70/5000 Time: 3.32 Batch_OA = 98.5 cross_entropy_loss = 0.071
+Iter 80/5000 Time: 3.34 Batch_OA = 98.4 cross_entropy_loss = 0.066
+Iter 90/5000 Time: 3.36 Batch_OA = 98.4 cross_entropy_loss = 0.063
+Iter 100/5000 Time: 3.35 Batch_OA = 98.6 cross_entropy_loss = 0.056
+Iter 110/5000 Time: 3.35 Batch_OA = 98.5 cross_entropy_loss = 0.057
+Iter 120/5000 Time: 3.42 Batch_OA = 98.5 cross_entropy_loss = 0.054
+Iter 130/5000 Time: 3.36 Batch_OA = 98.6 cross_entropy_loss = 0.048
+Iter 140/5000 Time: 3.39 Batch_OA = 98.8 cross_entropy_loss = 0.044
+Iter 150/5000 Time: 3.40 Batch_OA = 98.2 cross_entropy_loss = 0.053
+Iter 160/5000 Time: 3.42 Batch_OA = 98.4 cross_entropy_loss = 0.049
+Iter 170/5000 Time: 3.42 Batch_OA = 98.7 cross_entropy_loss = 0.041
+Iter 180/5000 Time: 3.42 Batch_OA = 98.8 cross_entropy_loss = 0.039
+Iter 190/5000 Time: 3.44 Batch_OA = 98.6 cross_entropy_loss = 0.043
+Iter 200/5000 Time: 3.40 Batch_OA = 98.5 cross_entropy_loss = 0.044
+Iter 210/5000 Time: 3.45 Batch_OA = 98.8 cross_entropy_loss = 0.036
+Iter 220/5000 Time: 3.45 Batch_OA = 98.7 cross_entropy_loss = 0.040
+Iter 230/5000 Time: 3.51 Batch_OA = 98.5 cross_entropy_loss = 0.043
+Iter 240/5000 Time: 3.48 Batch_OA = 98.6 cross_entropy_loss = 0.040
+Iter 250/5000 Time: 3.49 Batch_OA = 98.5 cross_entropy_loss = 0.041
+Iter 260/5000 Time: 3.50 Batch_OA = 98.5 cross_entropy_loss = 0.040
+Iter 270/5000 Time: 3.52 Batch_OA = 98.5 cross_entropy_loss = 0.043
+Iter 280/5000 Time: 3.52 Batch_OA = 98.5 cross_entropy_loss = 0.042
+Iter 290/5000 Time: 3.54 Batch_OA = 98.7 cross_entropy_loss = 0.036
+Iter 300/5000 Time: 3.55 Batch_OA = 98.6 cross_entropy_loss = 0.039
+Iter 310/5000 Time: 3.55 Batch_OA = 98.3 cross_entropy_loss = 0.045
+Iter 320/5000 Time: 3.56 Batch_OA = 98.7 cross_entropy_loss = 0.037
+Iter 330/5000 Time: 3.56 Batch_OA = 98.4 cross_entropy_loss = 0.042
+Iter 340/5000 Time: 3.54 Batch_OA = 98.7 cross_entropy_loss = 0.037
+Iter 350/5000 Time: 3.54 Batch_OA = 98.7 cross_entropy_loss = 0.036
+Iter 360/5000 Time: 3.53 Batch_OA = 98.5 cross_entropy_loss = 0.039
+Iter 370/5000 Time: 3.53 Batch_OA = 98.5 cross_entropy_loss = 0.040
+Iter 380/5000 Time: 3.50 Batch_OA = 98.5 cross_entropy_loss = 0.040
+Iter 390/5000 Time: 3.50 Batch_OA = 98.4 cross_entropy_loss = 0.044
+Iter 400/5000 Time: 3.50 Batch_OA = 98.7 cross_entropy_loss = 0.039
+Iter 410/5000 Time: 3.48 Batch_OA = 98.8 cross_entropy_loss = 0.035
+Iter 420/5000 Time: 3.49 Batch_OA = 98.5 cross_entropy_loss = 0.040
+Iter 430/5000 Time: 3.49 Batch_OA = 98.7 cross_entropy_loss = 0.037
+Iter 440/5000 Time: 3.50 Batch_OA = 98.5 cross_entropy_loss = 0.041
+Iter 450/5000 Time: 3.47 Batch_OA = 98.4 cross_entropy_loss = 0.041
+Iter 460/5000 Time: 3.49 Batch_OA = 98.4 cross_entropy_loss = 0.040
+Iter 470/5000 Time: 3.50 Batch_OA = 98.5 cross_entropy_loss = 0.040
+Iter 480/5000 Time: 3.49 Batch_OA = 98.6 cross_entropy_loss = 0.038
+Iter 490/5000 Time: 3.49 Batch_OA = 98.5 cross_entropy_loss = 0.039
+Iter 500/5000 Time: 3.51 Batch_OA = 98.5 cross_entropy_loss = 0.041
+Testing..........
+/content/Landslide4Sense-2022/Train.py:170: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  print('===>' + name_classes[i] + ' Precision: %.2f'%(P * 100))
+===>Landslide Precision: 73.26
+/content/Landslide4Sense-2022/Train.py:171: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  print('===>' + name_classes[i] + ' Recall: %.2f'%(R * 100))
+===>Landslide Recall: 66.24
+/content/Landslide4Sense-2022/Train.py:172: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  print('===>' + name_classes[i] + ' F1: %.2f'%(F1[i] * 100))
+===>Landslide F1: 69.57
+===> mean F1: 84.44 OA: 98.66
+Save Model
+/content/Landslide4Sense-2022/Train.py:181: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  model_name = 'batch'+repr(batch_id+1)+'_F1_'+repr(int(F1[1]*10000))+'.pth'
+Iter 510/5000 Time: 3.29 Batch_OA = 98.8 cross_entropy_loss = 0.034
+Iter 520/5000 Time: 3.50 Batch_OA = 98.6 cross_entropy_loss = 0.037
+Iter 530/5000 Time: 3.50 Batch_OA = 98.7 cross_entropy_loss = 0.036
+Iter 540/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 550/5000 Time: 3.50 Batch_OA = 98.6 cross_entropy_loss = 0.037
+Iter 560/5000 Time: 3.46 Batch_OA = 98.7 cross_entropy_loss = 0.035
+Iter 570/5000 Time: 3.50 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 580/5000 Time: 3.51 Batch_OA = 98.6 cross_entropy_loss = 0.038
+Iter 590/5000 Time: 3.49 Batch_OA = 98.5 cross_entropy_loss = 0.039
+Iter 600/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 610/5000 Time: 3.50 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 620/5000 Time: 3.51 Batch_OA = 98.6 cross_entropy_loss = 0.037
+Iter 630/5000 Time: 3.50 Batch_OA = 98.7 cross_entropy_loss = 0.035
+Iter 640/5000 Time: 3.50 Batch_OA = 98.8 cross_entropy_loss = 0.033
+Iter 650/5000 Time: 3.51 Batch_OA = 98.9 cross_entropy_loss = 0.031
+Iter 660/5000 Time: 3.51 Batch_OA = 98.6 cross_entropy_loss = 0.034
+Iter 670/5000 Time: 3.50 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 680/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 690/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.035
+Iter 700/5000 Time: 3.49 Batch_OA = 98.8 cross_entropy_loss = 0.033
+Iter 710/5000 Time: 3.51 Batch_OA = 98.6 cross_entropy_loss = 0.037
+Iter 720/5000 Time: 3.51 Batch_OA = 98.5 cross_entropy_loss = 0.040
+Iter 730/5000 Time: 3.53 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 740/5000 Time: 3.50 Batch_OA = 98.9 cross_entropy_loss = 0.031
+Iter 750/5000 Time: 3.51 Batch_OA = 98.6 cross_entropy_loss = 0.037
+Iter 760/5000 Time: 3.52 Batch_OA = 98.9 cross_entropy_loss = 0.031
+Iter 770/5000 Time: 3.49 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 780/5000 Time: 3.50 Batch_OA = 98.8 cross_entropy_loss = 0.033
+Iter 790/5000 Time: 3.52 Batch_OA = 98.5 cross_entropy_loss = 0.039
+Iter 800/5000 Time: 3.52 Batch_OA = 98.4 cross_entropy_loss = 0.042
+Iter 810/5000 Time: 3.50 Batch_OA = 98.5 cross_entropy_loss = 0.039
+Iter 820/5000 Time: 3.52 Batch_OA = 98.8 cross_entropy_loss = 0.033
+Iter 830/5000 Time: 3.52 Batch_OA = 98.4 cross_entropy_loss = 0.040
+Iter 840/5000 Time: 3.51 Batch_OA = 98.6 cross_entropy_loss = 0.038
+Iter 850/5000 Time: 3.52 Batch_OA = 98.7 cross_entropy_loss = 0.036
+Iter 860/5000 Time: 3.51 Batch_OA = 98.5 cross_entropy_loss = 0.039
+Iter 870/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.035
+Iter 880/5000 Time: 3.51 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 890/5000 Time: 3.52 Batch_OA = 98.4 cross_entropy_loss = 0.040
+Iter 900/5000 Time: 3.52 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 910/5000 Time: 3.51 Batch_OA = 98.9 cross_entropy_loss = 0.030
+Iter 920/5000 Time: 3.51 Batch_OA = 98.5 cross_entropy_loss = 0.038
+Iter 930/5000 Time: 3.52 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 940/5000 Time: 3.52 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 950/5000 Time: 3.51 Batch_OA = 98.5 cross_entropy_loss = 0.038
+Iter 960/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 970/5000 Time: 3.52 Batch_OA = 98.7 cross_entropy_loss = 0.035
+Iter 980/5000 Time: 3.50 Batch_OA = 98.4 cross_entropy_loss = 0.041
+Iter 990/5000 Time: 3.49 Batch_OA = 98.9 cross_entropy_loss = 0.030
+Iter 1000/5000 Time: 3.51 Batch_OA = 98.5 cross_entropy_loss = 0.038
+Testing..........
+===>Landslide Precision: 72.51
+===>Landslide Recall: 60.75
+===>Landslide F1: 66.11
+===> mean F1: 82.69 OA: 98.56
+Iter 1010/5000 Time: 3.28 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 1020/5000 Time: 3.50 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 1030/5000 Time: 3.49 Batch_OA = 98.8 cross_entropy_loss = 0.033
+Iter 1040/5000 Time: 3.52 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 1050/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 1060/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 1070/5000 Time: 3.50 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 1080/5000 Time: 3.50 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 1090/5000 Time: 3.52 Batch_OA = 98.8 cross_entropy_loss = 0.033
+Iter 1100/5000 Time: 3.50 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 1110/5000 Time: 3.51 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 1120/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.035
+Iter 1130/5000 Time: 3.49 Batch_OA = 98.9 cross_entropy_loss = 0.030
+Iter 1140/5000 Time: 3.50 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 1150/5000 Time: 3.51 Batch_OA = 98.5 cross_entropy_loss = 0.039
+Iter 1160/5000 Time: 3.52 Batch_OA = 98.5 cross_entropy_loss = 0.038
+Iter 1170/5000 Time: 3.50 Batch_OA = 98.7 cross_entropy_loss = 0.035
+Iter 1180/5000 Time: 3.51 Batch_OA = 98.8 cross_entropy_loss = 0.033
+Iter 1190/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 1200/5000 Time: 3.52 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 1210/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 1220/5000 Time: 3.51 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 1230/5000 Time: 3.52 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 1240/5000 Time: 3.50 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 1250/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 1260/5000 Time: 3.52 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 1270/5000 Time: 3.50 Batch_OA = 98.3 cross_entropy_loss = 0.042
+Iter 1280/5000 Time: 3.51 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 1290/5000 Time: 3.51 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 1300/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 1310/5000 Time: 3.50 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 1320/5000 Time: 3.51 Batch_OA = 98.5 cross_entropy_loss = 0.037
+Iter 1330/5000 Time: 3.51 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 1340/5000 Time: 3.52 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 1350/5000 Time: 3.51 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 1360/5000 Time: 3.52 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 1370/5000 Time: 3.52 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 1380/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 1390/5000 Time: 3.52 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 1400/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.035
+Iter 1410/5000 Time: 3.51 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 1420/5000 Time: 3.50 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 1430/5000 Time: 3.52 Batch_OA = 98.5 cross_entropy_loss = 0.038
+Iter 1440/5000 Time: 3.52 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 1450/5000 Time: 3.52 Batch_OA = 98.8 cross_entropy_loss = 0.033
+Iter 1460/5000 Time: 3.51 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 1470/5000 Time: 3.51 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 1480/5000 Time: 3.52 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 1490/5000 Time: 3.51 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 1500/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Testing..........
+===>Landslide Precision: 69.98
+===>Landslide Recall: 76.59
+===>Landslide F1: 73.14
+===> mean F1: 86.23 OA: 98.70
+Save Model
+Iter 1510/5000 Time: 3.28 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 1520/5000 Time: 3.50 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 1530/5000 Time: 3.48 Batch_OA = 98.6 cross_entropy_loss = 0.037
+Iter 1540/5000 Time: 3.50 Batch_OA = 98.5 cross_entropy_loss = 0.040
+Iter 1550/5000 Time: 3.50 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 1560/5000 Time: 3.49 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 1570/5000 Time: 3.49 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 1580/5000 Time: 3.51 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 1590/5000 Time: 3.51 Batch_OA = 98.8 cross_entropy_loss = 0.033
+Iter 1600/5000 Time: 3.50 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 1610/5000 Time: 3.51 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 1620/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 1630/5000 Time: 3.53 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 1640/5000 Time: 3.50 Batch_OA = 98.9 cross_entropy_loss = 0.030
+Iter 1650/5000 Time: 3.52 Batch_OA = 98.6 cross_entropy_loss = 0.037
+Iter 1660/5000 Time: 3.53 Batch_OA = 98.9 cross_entropy_loss = 0.030
+Iter 1670/5000 Time: 3.49 Batch_OA = 98.9 cross_entropy_loss = 0.030
+Iter 1680/5000 Time: 3.50 Batch_OA = 98.8 cross_entropy_loss = 0.033
+Iter 1690/5000 Time: 3.51 Batch_OA = 98.4 cross_entropy_loss = 0.040
+Iter 1700/5000 Time: 3.52 Batch_OA = 99.0 cross_entropy_loss = 0.028
+Iter 1710/5000 Time: 3.49 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 1720/5000 Time: 3.51 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 1730/5000 Time: 3.51 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 1740/5000 Time: 3.50 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 1750/5000 Time: 3.50 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 1760/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.035
+Iter 1770/5000 Time: 3.51 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 1780/5000 Time: 3.50 Batch_OA = 98.9 cross_entropy_loss = 0.030
+Iter 1790/5000 Time: 3.51 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 1800/5000 Time: 3.50 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 1810/5000 Time: 3.50 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 1820/5000 Time: 3.51 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 1830/5000 Time: 3.50 Batch_OA = 98.7 cross_entropy_loss = 0.037
+Iter 1840/5000 Time: 3.51 Batch_OA = 98.9 cross_entropy_loss = 0.031
+Iter 1850/5000 Time: 3.49 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 1860/5000 Time: 3.50 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 1870/5000 Time: 3.51 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 1880/5000 Time: 3.50 Batch_OA = 98.9 cross_entropy_loss = 0.030
+Iter 1890/5000 Time: 3.50 Batch_OA = 98.7 cross_entropy_loss = 0.035
+Iter 1900/5000 Time: 3.50 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 1910/5000 Time: 3.51 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 1920/5000 Time: 3.52 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 1930/5000 Time: 3.50 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 1940/5000 Time: 3.50 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 1950/5000 Time: 3.50 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 1960/5000 Time: 3.48 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 1970/5000 Time: 3.49 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 1980/5000 Time: 3.50 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 1990/5000 Time: 3.49 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 2000/5000 Time: 3.48 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Testing..........
+===>Landslide Precision: 78.55
+===>Landslide Recall: 65.52
+===>Landslide F1: 71.45
+===> mean F1: 85.41 OA: 98.79
+Iter 2010/5000 Time: 3.27 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 2020/5000 Time: 3.48 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 2030/5000 Time: 3.47 Batch_OA = 98.7 cross_entropy_loss = 0.035
+Iter 2040/5000 Time: 3.46 Batch_OA = 98.7 cross_entropy_loss = 0.035
+Iter 2050/5000 Time: 3.46 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 2060/5000 Time: 3.46 Batch_OA = 98.5 cross_entropy_loss = 0.038
+Iter 2070/5000 Time: 3.45 Batch_OA = 98.6 cross_entropy_loss = 0.034
+Iter 2080/5000 Time: 3.45 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 2090/5000 Time: 3.47 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 2100/5000 Time: 3.47 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 2110/5000 Time: 3.42 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 2120/5000 Time: 3.45 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 2130/5000 Time: 3.46 Batch_OA = 98.4 cross_entropy_loss = 0.040
+Iter 2140/5000 Time: 3.46 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 2150/5000 Time: 3.45 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 2160/5000 Time: 3.46 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 2170/5000 Time: 3.44 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 2180/5000 Time: 3.44 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 2190/5000 Time: 3.44 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 2200/5000 Time: 3.44 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 2210/5000 Time: 3.44 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 2220/5000 Time: 3.42 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 2230/5000 Time: 3.44 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 2240/5000 Time: 3.43 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 2250/5000 Time: 3.44 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 2260/5000 Time: 3.42 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 2270/5000 Time: 3.43 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 2280/5000 Time: 3.44 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 2290/5000 Time: 3.41 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 2300/5000 Time: 3.42 Batch_OA = 98.5 cross_entropy_loss = 0.037
+Iter 2310/5000 Time: 3.44 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 2320/5000 Time: 3.44 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 2330/5000 Time: 3.40 Batch_OA = 98.5 cross_entropy_loss = 0.039
+Iter 2340/5000 Time: 3.43 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 2350/5000 Time: 3.44 Batch_OA = 98.9 cross_entropy_loss = 0.030
+Iter 2360/5000 Time: 3.43 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 2370/5000 Time: 3.41 Batch_OA = 98.5 cross_entropy_loss = 0.037
+Iter 2380/5000 Time: 3.42 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 2390/5000 Time: 3.42 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 2400/5000 Time: 3.41 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 2410/5000 Time: 3.41 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 2420/5000 Time: 3.42 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 2430/5000 Time: 3.41 Batch_OA = 99.0 cross_entropy_loss = 0.027
+Iter 2440/5000 Time: 3.42 Batch_OA = 98.6 cross_entropy_loss = 0.034
+Iter 2450/5000 Time: 3.41 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 2460/5000 Time: 3.41 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 2470/5000 Time: 3.41 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 2480/5000 Time: 3.39 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 2490/5000 Time: 3.40 Batch_OA = 98.6 cross_entropy_loss = 0.034
+Iter 2500/5000 Time: 3.41 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Testing..........
+===>Landslide Precision: 84.28
+===>Landslide Recall: 55.95
+===>Landslide F1: 67.25
+===> mean F1: 83.30 OA: 98.74
+Iter 2510/5000 Time: 3.20 Batch_OA = 99.0 cross_entropy_loss = 0.026
+Iter 2520/5000 Time: 3.40 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 2530/5000 Time: 3.40 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 2540/5000 Time: 3.40 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 2550/5000 Time: 3.40 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 2560/5000 Time: 3.37 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 2570/5000 Time: 3.40 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 2580/5000 Time: 3.40 Batch_OA = 99.0 cross_entropy_loss = 0.026
+Iter 2590/5000 Time: 3.38 Batch_OA = 98.6 cross_entropy_loss = 0.034
+Iter 2600/5000 Time: 3.39 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 2610/5000 Time: 3.39 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 2620/5000 Time: 3.40 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 2630/5000 Time: 3.41 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 2640/5000 Time: 3.39 Batch_OA = 99.0 cross_entropy_loss = 0.026
+Iter 2650/5000 Time: 3.40 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 2660/5000 Time: 3.40 Batch_OA = 98.9 cross_entropy_loss = 0.027
+Iter 2670/5000 Time: 3.39 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 2680/5000 Time: 3.40 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 2690/5000 Time: 3.39 Batch_OA = 98.9 cross_entropy_loss = 0.027
+Iter 2700/5000 Time: 3.39 Batch_OA = 98.9 cross_entropy_loss = 0.030
+Iter 2710/5000 Time: 3.38 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 2720/5000 Time: 3.39 Batch_OA = 98.5 cross_entropy_loss = 0.038
+Iter 2730/5000 Time: 3.39 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 2740/5000 Time: 3.38 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 2750/5000 Time: 3.39 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 2760/5000 Time: 3.39 Batch_OA = 98.6 cross_entropy_loss = 0.034
+Iter 2770/5000 Time: 3.39 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 2780/5000 Time: 3.37 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 2790/5000 Time: 3.38 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 2800/5000 Time: 3.39 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 2810/5000 Time: 3.38 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 2820/5000 Time: 3.36 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 2830/5000 Time: 3.38 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 2840/5000 Time: 3.38 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 2850/5000 Time: 3.38 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 2860/5000 Time: 3.38 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 2870/5000 Time: 3.38 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 2880/5000 Time: 3.39 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 2890/5000 Time: 3.38 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 2900/5000 Time: 3.38 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 2910/5000 Time: 3.37 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 2920/5000 Time: 3.37 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 2930/5000 Time: 3.36 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 2940/5000 Time: 3.37 Batch_OA = 98.5 cross_entropy_loss = 0.037
+Iter 2950/5000 Time: 3.38 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 2960/5000 Time: 3.38 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 2970/5000 Time: 3.35 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 2980/5000 Time: 3.38 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 2990/5000 Time: 3.37 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 3000/5000 Time: 3.37 Batch_OA = 98.6 cross_entropy_loss = 0.033
+Testing..........
+===>Landslide Precision: 79.32
+===>Landslide Recall: 66.91
+===>Landslide F1: 72.59
+===> mean F1: 85.99 OA: 98.83
+Iter 3010/5000 Time: 3.14 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 3020/5000 Time: 3.37 Batch_OA = 98.8 cross_entropy_loss = 0.029
+Iter 3030/5000 Time: 3.36 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 3040/5000 Time: 3.35 Batch_OA = 98.6 cross_entropy_loss = 0.034
+Iter 3050/5000 Time: 3.35 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 3060/5000 Time: 3.36 Batch_OA = 98.5 cross_entropy_loss = 0.038
+Iter 3070/5000 Time: 3.36 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3080/5000 Time: 3.36 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 3090/5000 Time: 3.34 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3100/5000 Time: 3.36 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 3110/5000 Time: 3.36 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3120/5000 Time: 3.34 Batch_OA = 98.5 cross_entropy_loss = 0.037
+Iter 3130/5000 Time: 3.36 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3140/5000 Time: 3.35 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3150/5000 Time: 3.36 Batch_OA = 98.9 cross_entropy_loss = 0.027
+Iter 3160/5000 Time: 3.35 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 3170/5000 Time: 3.36 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 3180/5000 Time: 3.36 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 3190/5000 Time: 3.35 Batch_OA = 99.0 cross_entropy_loss = 0.027
+Iter 3200/5000 Time: 3.34 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 3210/5000 Time: 3.36 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 3220/5000 Time: 3.36 Batch_OA = 99.0 cross_entropy_loss = 0.026
+Iter 3230/5000 Time: 3.35 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 3240/5000 Time: 3.35 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 3250/5000 Time: 3.36 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3260/5000 Time: 3.36 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 3270/5000 Time: 3.34 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 3280/5000 Time: 3.36 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 3290/5000 Time: 3.36 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3300/5000 Time: 3.36 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 3310/5000 Time: 3.34 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 3320/5000 Time: 3.37 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 3330/5000 Time: 3.35 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 3340/5000 Time: 3.35 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 3350/5000 Time: 3.35 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 3360/5000 Time: 3.35 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 3370/5000 Time: 3.33 Batch_OA = 98.6 cross_entropy_loss = 0.034
+Iter 3380/5000 Time: 3.35 Batch_OA = 98.6 cross_entropy_loss = 0.034
+Iter 3390/5000 Time: 3.35 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 3400/5000 Time: 3.34 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 3410/5000 Time: 3.34 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 3420/5000 Time: 3.33 Batch_OA = 99.0 cross_entropy_loss = 0.027
+Iter 3430/5000 Time: 3.34 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 3440/5000 Time: 3.34 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 3450/5000 Time: 3.34 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 3460/5000 Time: 3.34 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 3470/5000 Time: 3.34 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 3480/5000 Time: 3.34 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 3490/5000 Time: 3.34 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 3500/5000 Time: 3.33 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Testing..........
+===>Landslide Precision: 83.86
+===>Landslide Recall: 58.83
+===>Landslide F1: 69.15
+===> mean F1: 84.26 OA: 98.78
+Iter 3510/5000 Time: 3.13 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3520/5000 Time: 3.33 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 3530/5000 Time: 3.34 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3540/5000 Time: 3.30 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3550/5000 Time: 3.33 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 3560/5000 Time: 3.34 Batch_OA = 98.9 cross_entropy_loss = 0.027
+Iter 3570/5000 Time: 3.32 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 3580/5000 Time: 3.31 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3590/5000 Time: 3.33 Batch_OA = 98.8 cross_entropy_loss = 0.029
+Iter 3600/5000 Time: 3.34 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 3610/5000 Time: 3.33 Batch_OA = 98.8 cross_entropy_loss = 0.029
+Iter 3620/5000 Time: 3.31 Batch_OA = 99.0 cross_entropy_loss = 0.025
+Iter 3630/5000 Time: 3.33 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3640/5000 Time: 3.33 Batch_OA = 99.0 cross_entropy_loss = 0.027
+Iter 3650/5000 Time: 3.30 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 3660/5000 Time: 3.33 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3670/5000 Time: 3.33 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 3680/5000 Time: 3.33 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 3690/5000 Time: 3.31 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 3700/5000 Time: 3.33 Batch_OA = 98.8 cross_entropy_loss = 0.029
+Iter 3710/5000 Time: 3.33 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 3720/5000 Time: 3.32 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 3730/5000 Time: 3.32 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3740/5000 Time: 3.33 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 3750/5000 Time: 3.33 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 3760/5000 Time: 3.33 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 3770/5000 Time: 3.31 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 3780/5000 Time: 3.33 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 3790/5000 Time: 3.33 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3800/5000 Time: 3.31 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 3810/5000 Time: 3.33 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 3820/5000 Time: 3.34 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 3830/5000 Time: 3.33 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 3840/5000 Time: 3.30 Batch_OA = 98.5 cross_entropy_loss = 0.039
+Iter 3850/5000 Time: 3.32 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 3860/5000 Time: 3.32 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 3870/5000 Time: 3.32 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 3880/5000 Time: 3.32 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3890/5000 Time: 3.32 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 3900/5000 Time: 3.32 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 3910/5000 Time: 3.32 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 3920/5000 Time: 3.29 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 3930/5000 Time: 3.32 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 3940/5000 Time: 3.32 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 3950/5000 Time: 3.32 Batch_OA = 98.5 cross_entropy_loss = 0.036
+Iter 3960/5000 Time: 3.31 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 3970/5000 Time: 3.31 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 3980/5000 Time: 3.32 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 3990/5000 Time: 3.29 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4000/5000 Time: 3.31 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Testing..........
+===>Landslide Precision: 75.32
+===>Landslide Recall: 74.52
+===>Landslide F1: 74.91
+===> mean F1: 87.16 OA: 98.84
+Save Model
+Iter 4010/5000 Time: 3.11 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 4020/5000 Time: 3.30 Batch_OA = 98.9 cross_entropy_loss = 0.027
+Iter 4030/5000 Time: 3.30 Batch_OA = 98.5 cross_entropy_loss = 0.037
+Iter 4040/5000 Time: 3.28 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 4050/5000 Time: 3.31 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 4060/5000 Time: 3.31 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4070/5000 Time: 3.28 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 4080/5000 Time: 3.31 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 4090/5000 Time: 3.31 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 4100/5000 Time: 3.31 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4110/5000 Time: 3.29 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 4120/5000 Time: 3.31 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 4130/5000 Time: 3.31 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 4140/5000 Time: 3.32 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 4150/5000 Time: 3.29 Batch_OA = 99.0 cross_entropy_loss = 0.025
+Iter 4160/5000 Time: 3.31 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 4170/5000 Time: 3.31 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 4180/5000 Time: 3.32 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 4190/5000 Time: 3.29 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 4200/5000 Time: 3.31 Batch_OA = 98.9 cross_entropy_loss = 0.030
+Iter 4210/5000 Time: 3.31 Batch_OA = 99.0 cross_entropy_loss = 0.027
+Iter 4220/5000 Time: 3.29 Batch_OA = 98.6 cross_entropy_loss = 0.034
+Iter 4230/5000 Time: 3.30 Batch_OA = 99.0 cross_entropy_loss = 0.025
+Iter 4240/5000 Time: 3.30 Batch_OA = 98.8 cross_entropy_loss = 0.029
+Iter 4250/5000 Time: 3.31 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4260/5000 Time: 3.29 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 4270/5000 Time: 3.30 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 4280/5000 Time: 3.30 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 4290/5000 Time: 3.31 Batch_OA = 98.9 cross_entropy_loss = 0.030
+Iter 4300/5000 Time: 3.31 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 4310/5000 Time: 3.31 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 4320/5000 Time: 3.30 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 4330/5000 Time: 3.31 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4340/5000 Time: 3.28 Batch_OA = 98.8 cross_entropy_loss = 0.032
+Iter 4350/5000 Time: 3.30 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4360/5000 Time: 3.31 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4370/5000 Time: 3.30 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 4380/5000 Time: 3.28 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 4390/5000 Time: 3.30 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 4400/5000 Time: 3.31 Batch_OA = 98.5 cross_entropy_loss = 0.036
+Iter 4410/5000 Time: 3.29 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4420/5000 Time: 3.29 Batch_OA = 98.8 cross_entropy_loss = 0.029
+Iter 4430/5000 Time: 3.30 Batch_OA = 98.9 cross_entropy_loss = 0.027
+Iter 4440/5000 Time: 3.30 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 4450/5000 Time: 3.30 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4460/5000 Time: 3.30 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 4470/5000 Time: 3.30 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 4480/5000 Time: 3.30 Batch_OA = 99.0 cross_entropy_loss = 0.027
+Iter 4490/5000 Time: 3.28 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 4500/5000 Time: 3.30 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Testing..........
+===>Landslide Precision: 67.98
+===>Landslide Recall: 80.58
+===>Landslide F1: 73.74
+===> mean F1: 86.53 OA: 98.67
+Iter 4510/5000 Time: 3.11 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 4520/5000 Time: 3.31 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 4530/5000 Time: 3.29 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4540/5000 Time: 3.30 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4550/5000 Time: 3.29 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4560/5000 Time: 3.28 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4570/5000 Time: 3.28 Batch_OA = 98.6 cross_entropy_loss = 0.034
+Iter 4580/5000 Time: 3.29 Batch_OA = 98.7 cross_entropy_loss = 0.034
+Iter 4590/5000 Time: 3.29 Batch_OA = 98.9 cross_entropy_loss = 0.027
+Iter 4600/5000 Time: 3.29 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 4610/5000 Time: 3.28 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 4620/5000 Time: 3.28 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 4630/5000 Time: 3.30 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 4640/5000 Time: 3.27 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 4650/5000 Time: 3.29 Batch_OA = 99.0 cross_entropy_loss = 0.027
+Iter 4660/5000 Time: 3.29 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 4670/5000 Time: 3.30 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 4680/5000 Time: 3.27 Batch_OA = 98.9 cross_entropy_loss = 0.027
+Iter 4690/5000 Time: 3.30 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 4700/5000 Time: 3.29 Batch_OA = 98.8 cross_entropy_loss = 0.029
+Iter 4710/5000 Time: 3.30 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4720/5000 Time: 3.27 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 4730/5000 Time: 3.30 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 4740/5000 Time: 3.29 Batch_OA = 98.9 cross_entropy_loss = 0.027
+Iter 4750/5000 Time: 3.28 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 4760/5000 Time: 3.27 Batch_OA = 98.8 cross_entropy_loss = 0.029
+Iter 4770/5000 Time: 3.29 Batch_OA = 98.8 cross_entropy_loss = 0.029
+Iter 4780/5000 Time: 3.29 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4790/5000 Time: 3.30 Batch_OA = 98.6 cross_entropy_loss = 0.035
+Iter 4800/5000 Time: 3.28 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 4810/5000 Time: 3.29 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 4820/5000 Time: 3.29 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 4830/5000 Time: 3.30 Batch_OA = 98.7 cross_entropy_loss = 0.033
+Iter 4840/5000 Time: 3.29 Batch_OA = 99.0 cross_entropy_loss = 0.027
+Iter 4850/5000 Time: 3.28 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 4860/5000 Time: 3.29 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 4870/5000 Time: 3.25 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 4880/5000 Time: 3.29 Batch_OA = 98.7 cross_entropy_loss = 0.032
+Iter 4890/5000 Time: 3.29 Batch_OA = 98.6 cross_entropy_loss = 0.036
+Iter 4900/5000 Time: 3.29 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 4910/5000 Time: 3.25 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Iter 4920/5000 Time: 3.28 Batch_OA = 98.9 cross_entropy_loss = 0.028
+Iter 4930/5000 Time: 3.29 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 4940/5000 Time: 3.28 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 4950/5000 Time: 3.27 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 4960/5000 Time: 3.28 Batch_OA = 99.0 cross_entropy_loss = 0.027
+Iter 4970/5000 Time: 3.28 Batch_OA = 98.9 cross_entropy_loss = 0.027
+Iter 4980/5000 Time: 3.28 Batch_OA = 98.9 cross_entropy_loss = 0.029
+Iter 4990/5000 Time: 3.28 Batch_OA = 98.8 cross_entropy_loss = 0.030
+Iter 5000/5000 Time: 3.28 Batch_OA = 98.8 cross_entropy_loss = 0.031
+Testing..........
+===>Landslide Precision: 87.62
+===>Landslide Recall: 53.48
+===>Landslide F1: 66.42
+===> mean F1: 82.89 OA: 98.75
